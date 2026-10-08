@@ -10,7 +10,6 @@ const accessKey = process.env.LT_ACCESS_KEY;
 if (!username || !accessKey) {
   throw new Error("Missing LT_USERNAME or LT_ACCESS_KEY in .env")
 }
-git 
 const cloudWs = (capabilities) =>
   `wss://cdp.lambdatest.com/playwright?capabilities=${encodeURIComponent(
     JSON.stringify(capabilities)
