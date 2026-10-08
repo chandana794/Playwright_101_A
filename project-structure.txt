@@ -1,0 +1,15 @@
+.
+├── .env
+├── .github/
+├── .gitignore
+├── lambdatest-setup.js
+├── node_modules/
+├── package-lock.json
+├── package.json
+├── playwright.config.js
+├── README.md
+├── test-results/
+└── tests/
+    ├── test-scenario-1.spec.js
+    ├── test-scenario-2.spec.js
+    └── test-scenario-3.spec.js

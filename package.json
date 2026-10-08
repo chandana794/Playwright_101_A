@@ -1,0 +1,14 @@
+{
+  "name": "playwright-101-assignment",
+  "version": "1.0.0",
+  "description": "Playwright 101 Certification Assignment - TestMu AI",
+  "scripts": {
+    "test": "npx playwright test --config=playwright.config.js",
+    "test:local": "npx playwright test --config=playwright.config.js --project=local"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.52.0",
+    "dotenv": "^16.6.1",
+    "playwright": "^1.52.0"
+  }
+}
